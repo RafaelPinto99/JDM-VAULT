@@ -17,18 +17,18 @@ body{
 
 h1{
     border: 1px solid blue;
-    margin: 40vh 0 0 5rem;
+    margin: auto 0 0 5rem;
     width: fit-content;
+    font-size: 5rem;
 }
 
 nav{
-    border: 1px solid red;
     margin: 0 5rem;
     font-weight: bold;
+    border-bottom: 1px solid black;
 }
 
 nav ul{
-    border: 5px solid purple;
     list-style-type: none;
     display: flex;
     flex-flow: row nowrap;
@@ -37,8 +37,7 @@ nav ul{
 }
 
 nav li{
-    border: 1px solid green;
-    padding: 1rem;
+    padding: 2rem 1rem;
     margin: 0;
 }
 
@@ -47,15 +46,14 @@ nav li:first-child{
 }
 
 nav a{
-    border: 10px solid orange;
     display: block;
     text-transform: uppercase;
 }
 
 nav a:any-link{
-    border: 10px solid pink;
     text-decoration: none;
     justify-content: space-between;
+    text-wrap: nowrap;
 }
 
 nav a:hover,
